@@ -83,7 +83,7 @@ You will get response with full information about stored item.
 You may wish to populate database with some items and test few things.
 Do this with:
 ```sh
-$ python test.py
+$ python tests.py
 ```
 This is not a dedicated test module, but gets the job done.
 
