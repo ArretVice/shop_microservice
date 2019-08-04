@@ -46,6 +46,7 @@ pprint(f'Bad request: {r.json()}')
 
 # test finding by valid ID
 r = requests.get('http://localhost:8080/get_info_by_id', data=json.dumps({'id': stored_id}))
+print(f'Stored id: {stored_id}')
 pprint(f'Found item: {r.json()}')
 
 # test finding by invalid ID
